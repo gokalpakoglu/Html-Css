@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <title>Efeler Diyarı Aydın</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/fdc2d14525.js" crossorigin="anonymous"></script>
+    </head>
+    <body id="ust">
+        <div> 
+            <header>
+                <h1 id="deger">Bizi Değerlendirin</h1>
+            </header>
+            <nav id="menu">
+                <button><a href="index.html">Anasayfa</a></button>
+                <button><a href="tarihiyerler.html">Tarihi Yerler</a></button>
+                <button><a href="dogalguzellikler.html">Doğal Güzellikler</a></button>
+                <button><a href="plajlar.html">Plajlar</a></button>
+                <button><a href="aktiviteler.html">Aktiviteler</a></button>
+                <button><a href="yiyecekler.html">Aydın'a Özgü Tatlar/Yiyecekler</a></button>
+                <button><a href="degerlendirme.html">Bizi Değerlendirin</a></button>
+                
+            </nav>
+            <hr>
+            <section>
+                
+                <p>
+                    Sitemize girip bilgilendiyseniz,aklınıza Aydın'a gelme fikrini sokabildiysek ne mutlu bize!<br><br>
+                    Sitemizi daha güzel hale getirmek,eksik gördüğünüz veya eklemek istediğiniz bilgiler,görüşler ve şikayetler için lütfen aşağıdaki formu doldurunuz.
+                    Aydın hakkında daha fazla bilgi almak veya eklemek ya da başka illeri de sayfamızda görmek istiyorsanız bize belirtmeniz yeterli.
+                </p>
+                <article>
+                    <form name="degerlendirme" action="" method="GET"> 
+                        <table>
+                            <tr><td><label for="ad">Ad:</label></td><td><input type="text" size="54" name="ad" id="ad"  placeholder="Bu boşluğa adınızı giriniz" autofocus required aria-required="true"></td></tr>
+                            <tr><td><label for="soyad">Soyad:</label></td><td><input type="text" size="54" name="soyad" id="soyad" placeholder="Bu boşluğa soyadınızı giriniz" aria-required="true" required ></td></tr><br>
+                            <tr><td><label for="oneri">Öneri/Şikayet:</label></td><td><textarea name="oneri" id="oneri" rows="5" cols="56"  placeholder="Öneri/şikayet/düşüncelerinizi almaktan memnuniyet duyarız." aria-required="true" required></textarea></td></tr>
+                        </table>
+                    <br>
+                    <br>
+                        Sitemize baktıktan sonra Aydın'a gelmeyi düşünüyor musunuz?
+                        <br>
+                        <input type="radio" name="gorus" value="evet" >Evet
+                        <br>
+                        <input type="radio" name="gorus" value="hayir">Hayır
+                        <br><br>
+                        İçeriklerimizden hangilerini beğendiniz?
+                        <br>
+                        <input type="checkbox" name="tarihi" value="tarihi yerler" >Tarihi Yerler
+                        <input type="checkbox" name="dogal" value="dogal guzellikler">Doğal Güzellikler
+                        <input type="checkbox" name="plaj" value="plajlar">Plajlar
+                        <input type="checkbox" name="aktivite" value="aktiviteler">Aktiviteler
+                        <input type="checkbox" name="yicek" value="yiyecekler">Aydın'a Özgü Tatlar/Yiyecekler
+                        <br><br>
+                        <input type="submit" value="Gönder">
+                        <input type="reset" value="İptal Et">
+                    </form>
+                </article>
+                <br><br>
+                <div id="assignmentone">
+                    Lütfen aşağıdaki butona tıklayınız!
+                    <button id="alertButton" onclick="alertBox()">
+                      Sakın Tıklama!
+                    </button>
+                    <script>
+                        function alertBox(){
+                            alert("Alert in assignment one!")
+                        }
+                    </script>
+                  </div>
+            </section>
+            <aside>
+            </aside>
+            <footer>
+                <a href="index.html">Anasayfa |</a>
+                <a href="tarihiyerler.html"> Tarihi Yerler |</a>
+                <a href="dogalguzellikler.html"> Doğal Güzellikler |</a>
+                <a href="plajlar.html"> Plajlar |</a>
+                <a href="aktiviteler.html"> Aktiviteler |</a>
+                <a href="yiyecekler.html"> Aydın'a Özgü Tatlar/Yiyecekler |</a>
+                <a href="degerlendirme.html"> Bizi Değerlendirin</a>
+                <span id="hak">
+                    Tüm Hakları Saklıdır &copy 2021
+                </span> 
+            </footer>
+        </div>
+        <button><a id="bas" href="#ust"></a></button>
+    </body>
+</html>
